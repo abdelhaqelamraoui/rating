@@ -1,0 +1,96 @@
+
+
+@import url('./global.css');
+
+
+a {
+  text-decoration: none;
+}
+
+section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* background-color: lightblue; */
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#rate-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 0;
+  width: 150px;
+  height: 200px;
+  height: fit-content;
+  border: 1px solid rgb(0,0,0,0.6);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+#rate-div * {
+  font-size: 40px;
+  font-family: Arial, Roboto, sans-serif;
+  text-align: center;
+  padding: 8px;
+}
+
+#rate {
+  height: 100%;
+  width: 100%;
+  /* background-color: lightpink; */
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  border-right: 1px solid rgb(0,0,0,0.6);
+  border-radius: 4px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+/* #rate:focus-visible {
+  border: none;
+  box-shadow: none;
+  text-align: center;
+  box-sizing: border-box;
+} */
+
+#overten {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  color: rgb(10,10,200);
+}
+
+
+#submit {
+  padding: 10px 20px;
+  font-size: 20px;
+  width: 150px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  border: 1px solid rgb(0,0,0,0.6);
+  box-shadow: #0a649b1f 1px 1px;
+}
+
+
+#submit:active {
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+}
+
+
+
